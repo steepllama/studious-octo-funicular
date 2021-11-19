@@ -1,0 +1,45 @@
+/* * {
+    background-image: url(./Images/casey-horner-RmoWqDCqN2E-unsplash.jpg)
+} */
+body {
+    background-image: url(./Images/parchment\ paper.jpeg);
+    background-size: cover;
+}
+header {
+    padding: 0px;
+    text-align: left;
+    font-size: 30px;
+    top: 0;
+}
+header h1 {
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+    margin: 0;
+}
+header a {
+    text-decoration: none;
+    color: black;
+}
+header nav {
+    margin: 7px 0;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li a {
+    padding: 10px 75px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    display: block;
+}
+#photo {
+    width: 300px;
+    length: 300px;
+}
