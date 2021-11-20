@@ -5,6 +5,17 @@ body {
     background-image: url(./Images/parchment\ paper.jpeg);
     background-size: cover;
 }
+
+.nav-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.nav-space{
+    justify-content: space-between;
+}
+
 header {
     padding: 0px;
     text-align: center;
@@ -21,35 +32,50 @@ header a {
     text-decoration: none;
     color: black;
 }
-header nav {
+
+/* header nav {
     margin: 7px 0;
-}
-header nav ul {
+} */
+
+
+.ul-row {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    /* justify-content: space-between;
+    align-items: center; */
     list-style: none;
     margin: 0;
     padding: 0;
 }
-header nav ul li a {
-    padding: 10px 75px;
+
+.li-row {
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
     display: block;
 }
-#photo {
+
+.center{
+    justify-content: center;
+}
+
+.pic-margin {
     width: 300px;
-    length: 300px;
-    float: left;
+    margin-top: 50px;
+    /* height: 300px; */
+    /* float: left; */
 }
 .me {
     text-align: center;
-    float: left;
+    /* float: left; */
     margin: auto;
 }
-.me h2 {
+
+.space-around{
+    justify-content: space-around;
+}
+/* .me h2 {
     margin: 20px 20px 0 20px;
     text-align: center;
     font-size: 30px;
@@ -57,9 +83,9 @@ header nav ul li a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-.project {
+} */
+/* .project {
     text-align: left;
-    
 
-}
+
+} */
