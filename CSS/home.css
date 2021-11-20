@@ -1,21 +1,15 @@
-/* * {
-    background-image: url(./Images/casey-horner-RmoWqDCqN2E-unsplash.jpg)
-} */
 body {
     background-image: url(./Images/parchment\ paper.jpeg);
     background-size: cover;
 }
-
 .nav-row{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-
 .nav-space{
     justify-content: space-between;
 }
-
 header {
     padding: 0px;
     text-align: center;
@@ -32,23 +26,14 @@ header a {
     text-decoration: none;
     color: black;
 }
-
-/* header nav {
-    margin: 7px 0;
-} */
-
-
 .ul-row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* justify-content: space-between;
-    align-items: center; */
     list-style: none;
     margin: 0;
     padding: 0;
 }
-
 .li-row {
     padding: 10px 15px;
     font-weight: lighter;
@@ -63,29 +48,12 @@ header a {
 .pic-margin {
     width: 300px;
     margin-top: 50px;
-    /* height: 300px; */
-    /* float: left; */
 }
 .me {
     text-align: center;
-    /* float: left; */
     margin: auto;
 }
 
 .space-around{
     justify-content: space-around;
 }
-/* .me h2 {
-    margin: 20px 20px 0 20px;
-    text-align: center;
-    font-size: 30px;
-    font-style: italic;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-} */
-/* .project {
-    text-align: left;
-
-
-} */
